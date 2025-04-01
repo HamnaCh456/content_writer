@@ -58,7 +58,7 @@ class StreamToExpander:
 # Function to create and run the CrewAI setup
 def create_crewai_setup(topic):
     # Set API key - you can replace this with your own API key or environment variable
-    os.environ["GROQ_API_KEY"] = "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"
+    os.environ["GROQ_API_KEY"] = "NA"
     
     # Initialize LLM
     llm = LLM(model="groq/llama-3.3-70b-specdec")
